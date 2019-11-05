@@ -4,7 +4,11 @@
   "description": "Fun pokemon mini battle game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/MatthewYee92/pokemon-battle-game/issues"
   },
-  "homepage": "https://github.com/MatthewYee92/pokemon-battle-game#readme"
+  "homepage": "https://github.com/MatthewYee92/pokemon-battle-game#readme",
+  "dependencies": {
+    "expo": "^30.0.1",
+    "pusher-js": "^4.3.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-navigation": "^2.17.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0"
+  }
 }
