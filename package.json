@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/MatthewYee92/pokemon-battle-game#readme",
   "dependencies": {
-    "expo": "^30.0.1",
+    "expo": "^46.0.16",
     "pusher-js": "^4.3.1",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
